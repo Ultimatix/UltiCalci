@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7342D9A31CD0360C008F26A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7342D9A21CD0360C008F26A2 /* AppDelegate.swift */; };
+		7342D9A51CD0360C008F26A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7342D9A41CD0360C008F26A2 /* ViewController.swift */; };
+		7342D9A81CD0360C008F26A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7342D9A61CD0360C008F26A2 /* Main.storyboard */; };
+		7342D9AA1CD0360C008F26A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7342D9A91CD0360C008F26A2 /* Assets.xcassets */; };
+		7342D9AD1CD0360C008F26A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7342D9AB1CD0360C008F26A2 /* LaunchScreen.storyboard */; };
+		7342D9B81CD0360C008F26A2 /* UltiCalciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7342D9B71CD0360C008F26A2 /* UltiCalciTests.swift */; };
+		7342D9C31CD0360C008F26A2 /* UltiCalciUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7342D9C21CD0360C008F26A2 /* UltiCalciUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7342D9B41CD0360C008F26A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7342D9971CD0360C008F26A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7342D99E1CD0360C008F26A2;
+			remoteInfo = UltiCalci;
+		};
+		7342D9BF1CD0360C008F26A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7342D9971CD0360C008F26A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7342D99E1CD0360C008F26A2;
+			remoteInfo = UltiCalci;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7342D99F1CD0360C008F26A2 /* UltiCalci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltiCalci.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7342D9A21CD0360C008F26A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7342D9A41CD0360C008F26A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7342D9A71CD0360C008F26A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7342D9A91CD0360C008F26A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7342D9AC1CD0360C008F26A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7342D9AE1CD0360C008F26A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7342D9B31CD0360C008F26A2 /* UltiCalciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltiCalciTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7342D9B71CD0360C008F26A2 /* UltiCalciTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltiCalciTests.swift; sourceTree = "<group>"; };
+		7342D9B91CD0360C008F26A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7342D9BE1CD0360C008F26A2 /* UltiCalciUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltiCalciUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7342D9C21CD0360C008F26A2 /* UltiCalciUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltiCalciUITests.swift; sourceTree = "<group>"; };
+		7342D9C41CD0360C008F26A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7342D99C1CD0360C008F26A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7342D9B01CD0360C008F26A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7342D9BB1CD0360C008F26A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7342D9961CD0360C008F26A2 = {
+			isa = PBXGroup;
+			children = (
+				7342D9A11CD0360C008F26A2 /* UltiCalci */,
+				7342D9B61CD0360C008F26A2 /* UltiCalciTests */,
+				7342D9C11CD0360C008F26A2 /* UltiCalciUITests */,
+				7342D9A01CD0360C008F26A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7342D9A01CD0360C008F26A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7342D99F1CD0360C008F26A2 /* UltiCalci.app */,
+				7342D9B31CD0360C008F26A2 /* UltiCalciTests.xctest */,
+				7342D9BE1CD0360C008F26A2 /* UltiCalciUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7342D9A11CD0360C008F26A2 /* UltiCalci */ = {
+			isa = PBXGroup;
+			children = (
+				7342D9A21CD0360C008F26A2 /* AppDelegate.swift */,
+				7342D9A41CD0360C008F26A2 /* ViewController.swift */,
+				7342D9A61CD0360C008F26A2 /* Main.storyboard */,
+				7342D9A91CD0360C008F26A2 /* Assets.xcassets */,
+				7342D9AB1CD0360C008F26A2 /* LaunchScreen.storyboard */,
+				7342D9AE1CD0360C008F26A2 /* Info.plist */,
+			);
+			path = UltiCalci;
+			sourceTree = "<group>";
+		};
+		7342D9B61CD0360C008F26A2 /* UltiCalciTests */ = {
+			isa = PBXGroup;
+			children = (
+				7342D9B71CD0360C008F26A2 /* UltiCalciTests.swift */,
+				7342D9B91CD0360C008F26A2 /* Info.plist */,
+			);
+			path = UltiCalciTests;
+			sourceTree = "<group>";
+		};
+		7342D9C11CD0360C008F26A2 /* UltiCalciUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7342D9C21CD0360C008F26A2 /* UltiCalciUITests.swift */,
+				7342D9C41CD0360C008F26A2 /* Info.plist */,
+			);
+			path = UltiCalciUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7342D99E1CD0360C008F26A2 /* UltiCalci */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7342D9C71CD0360C008F26A2 /* Build configuration list for PBXNativeTarget "UltiCalci" */;
+			buildPhases = (
+				7342D99B1CD0360C008F26A2 /* Sources */,
+				7342D99C1CD0360C008F26A2 /* Frameworks */,
+				7342D99D1CD0360C008F26A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UltiCalci;
+			productName = UltiCalci;
+			productReference = 7342D99F1CD0360C008F26A2 /* UltiCalci.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7342D9B21CD0360C008F26A2 /* UltiCalciTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7342D9CA1CD0360C008F26A2 /* Build configuration list for PBXNativeTarget "UltiCalciTests" */;
+			buildPhases = (
+				7342D9AF1CD0360C008F26A2 /* Sources */,
+				7342D9B01CD0360C008F26A2 /* Frameworks */,
+				7342D9B11CD0360C008F26A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7342D9B51CD0360C008F26A2 /* PBXTargetDependency */,
+			);
+			name = UltiCalciTests;
+			productName = UltiCalciTests;
+			productReference = 7342D9B31CD0360C008F26A2 /* UltiCalciTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7342D9BD1CD0360C008F26A2 /* UltiCalciUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7342D9CD1CD0360C008F26A2 /* Build configuration list for PBXNativeTarget "UltiCalciUITests" */;
+			buildPhases = (
+				7342D9BA1CD0360C008F26A2 /* Sources */,
+				7342D9BB1CD0360C008F26A2 /* Frameworks */,
+				7342D9BC1CD0360C008F26A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7342D9C01CD0360C008F26A2 /* PBXTargetDependency */,
+			);
+			name = UltiCalciUITests;
+			productName = UltiCalciUITests;
+			productReference = 7342D9BE1CD0360C008F26A2 /* UltiCalciUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7342D9971CD0360C008F26A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ultimatix;
+				TargetAttributes = {
+					7342D99E1CD0360C008F26A2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					7342D9B21CD0360C008F26A2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7342D99E1CD0360C008F26A2;
+					};
+					7342D9BD1CD0360C008F26A2 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7342D99E1CD0360C008F26A2;
+					};
+				};
+			};
+			buildConfigurationList = 7342D99A1CD0360C008F26A2 /* Build configuration list for PBXProject "UltiCalci" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7342D9961CD0360C008F26A2;
+			productRefGroup = 7342D9A01CD0360C008F26A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7342D99E1CD0360C008F26A2 /* UltiCalci */,
+				7342D9B21CD0360C008F26A2 /* UltiCalciTests */,
+				7342D9BD1CD0360C008F26A2 /* UltiCalciUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7342D99D1CD0360C008F26A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7342D9AD1CD0360C008F26A2 /* LaunchScreen.storyboard in Resources */,
+				7342D9AA1CD0360C008F26A2 /* Assets.xcassets in Resources */,
+				7342D9A81CD0360C008F26A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7342D9B11CD0360C008F26A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7342D9BC1CD0360C008F26A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7342D99B1CD0360C008F26A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7342D9A51CD0360C008F26A2 /* ViewController.swift in Sources */,
+				7342D9A31CD0360C008F26A2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7342D9AF1CD0360C008F26A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7342D9B81CD0360C008F26A2 /* UltiCalciTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7342D9BA1CD0360C008F26A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7342D9C31CD0360C008F26A2 /* UltiCalciUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7342D9B51CD0360C008F26A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7342D99E1CD0360C008F26A2 /* UltiCalci */;
+			targetProxy = 7342D9B41CD0360C008F26A2 /* PBXContainerItemProxy */;
+		};
+		7342D9C01CD0360C008F26A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7342D99E1CD0360C008F26A2 /* UltiCalci */;
+			targetProxy = 7342D9BF1CD0360C008F26A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7342D9A61CD0360C008F26A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7342D9A71CD0360C008F26A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7342D9AB1CD0360C008F26A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7342D9AC1CD0360C008F26A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7342D9C51CD0360C008F26A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7342D9C61CD0360C008F26A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7342D9C81CD0360C008F26A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UltiCalci/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nirutatalwekar.UltiCalci;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7342D9C91CD0360C008F26A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UltiCalci/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nirutatalwekar.UltiCalci;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7342D9CB1CD0360C008F26A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UltiCalciTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nirutatalwekar.UltiCalciTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UltiCalci.app/UltiCalci";
+			};
+			name = Debug;
+		};
+		7342D9CC1CD0360C008F26A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UltiCalciTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nirutatalwekar.UltiCalciTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UltiCalci.app/UltiCalci";
+			};
+			name = Release;
+		};
+		7342D9CE1CD0360C008F26A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UltiCalciUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nirutatalwekar.UltiCalciUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UltiCalci;
+			};
+			name = Debug;
+		};
+		7342D9CF1CD0360C008F26A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UltiCalciUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nirutatalwekar.UltiCalciUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UltiCalci;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7342D99A1CD0360C008F26A2 /* Build configuration list for PBXProject "UltiCalci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7342D9C51CD0360C008F26A2 /* Debug */,
+				7342D9C61CD0360C008F26A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7342D9C71CD0360C008F26A2 /* Build configuration list for PBXNativeTarget "UltiCalci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7342D9C81CD0360C008F26A2 /* Debug */,
+				7342D9C91CD0360C008F26A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7342D9CA1CD0360C008F26A2 /* Build configuration list for PBXNativeTarget "UltiCalciTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7342D9CB1CD0360C008F26A2 /* Debug */,
+				7342D9CC1CD0360C008F26A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7342D9CD1CD0360C008F26A2 /* Build configuration list for PBXNativeTarget "UltiCalciUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7342D9CE1CD0360C008F26A2 /* Debug */,
+				7342D9CF1CD0360C008F26A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7342D9971CD0360C008F26A2 /* Project object */;
+}
